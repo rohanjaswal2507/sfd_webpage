@@ -8,7 +8,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="The webpage tells about the software freedom day celebrations at NIT Hamirpur.">
     <meta name="author" content="">
-
+	<link rel="icon" 
+      type="image/ico" 
+      href="img/favicon.ico">
     <title>SFD @NITH</title>
 
     <!-- Bootstrap Core CSS -->
@@ -59,7 +61,9 @@
                         <a class="page-scroll" href="#gallery">Gallery</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#video">Video</a>
+
+                    <a class="page-scroll" href="#video">Videos</a>
+
                     </li>
                     <li>
                         <a class="page-scroll" href="#events">Events</a>
@@ -108,7 +112,10 @@
     </section>
 
 
-    <section class="container content-section text-center" id="gallery">
+    <section class="container content-section text-center">
+        <p  id="gallery"><br><br></p>
+        <h2>gallery</h2>
+
         <div id="carousel-example-generic" class="carousel slide" data-ride="carousel" data-interval="4000">
                                 
           <!-- Indicators -->
@@ -131,6 +138,7 @@
               <div class="carousel-caption">
                 <h3>SFD</h3>
               </div>
+
             </div>
             <div class="item">
               <img src="img/url.jpeg" alt="...">
@@ -151,65 +159,68 @@
 
     </section>
 
-    <!-- Video Section -->
-    <section  class="content-section text-center">
         
-        <div  class="container"  >
-            <div  class="col-lg-8 col-lg-offset-2">
-                <p id="video"><br><br></p>
-                <h2>Video</h2>
-                <br>
-			<iframe width="640" height="360" src="http://www.youtube.com/embed/7BMFFtMuJV4?list=UUxyAvpxbTdy6bCKRY15vLcA" frameborder="0" allowfullscreen></iframe>
-                
-            </div>
+         
+    <section  class="container content-section text-center"  >
+        <div  class="col-lg-8 col-lg-offset-2">
+            <p id="video"><br><br></p>
+            <h2>Videos</h2>
+		<iframe width="720" height="480" src="http://www.youtube.com/embed/7BMFFtMuJV4?list=UUxyAvpxbTdy6bCKRY15vLcA" frameborder="0" allowfullscreen></iframe>
+            
         </div>
-    
     </section>
+
 
     <!-- Events section -->
 	<section class="container content-section ">
         <div class="row">
             <div class="col-lg-8 col-lg-offset-2">
                 <p id="events"><br><br></p>
-                <h2>Events</h2>
+                <h2 align="center">Events</h2>
                 <div class="accordion" id="my-accordion">
-        			<div class="accordion-group">
-        				<div class="intro-text">
-        					<a href="#collapse-1" data-toggle="collapse" data-parent="#my-accordion" class="accordion-toggle">Event</a>
-        				</div>
-        				<div class="accordion-body collapse out" id="collapse-1">
-        					<div class="accordion-inner">
-        						Description about the event will be updated soon.
-        					</div>
-        				</div>
-        			</div>
-               <div class="accordion" id="my-accordion">
-            			<div class="accordion-group">
-            				<div class="accordion-heading">
-            					<a href="#collapse-2" data-toggle="collapse" data-parent="#my-accordion" class="accordion-toggle">OS Exhibition</a>
-            				</div>
-            				<div class="accordion-body collapse out" id="collapse-2">
-            					<div class="accordion-inner">
-            						This exhibition will give you a glimpse of various computer operating systems which are open source and free.<br>
-            						
-            					</div>
-            				</div>
-            			</div>
-			<div class="accordion" id="my-accordion">
+
     			<div class="accordion-group">
-    				<div class="accordion-heading">
-    					<a href="#collapse-3" data-toggle="collapse" data-parent="#my-accordion" class="accordion-toggle">Event</a>
-    				</div>
-    				<div class="accordion-body collapse out" id="collapse-3">
-    					<div class="accordion-inner">
-    						Description about the event will be updated soon.
-    					</div>
-    				</div>
-    			</div>
+				<div class="intro-text">
+					<a href="#collapse-1" data-toggle="collapse" data-parent="#my-accordion" class="accordion-toggle  btn btn-default btn-lg">Event</a>
+				</div>
+				<div class="accordion-body collapse out" id="collapse-1">
+					<div class="accordion-inner">
+						Description about the event will be updated soon.
+					</div>
+				</div>
+			</div>
+			<br>
+               <div class="accordion" id="my-accordion">
+			<div class="accordion-group">
+				<div class="accordion-heading">
+					<a href="#collapse-2" data-toggle="collapse" data-parent="#my-accordion" class="accordion-toggle  btn btn-default btn-lg">OS Exhibition</a>
+				</div>
+				<div class="accordion-body collapse out" id="collapse-2">
+					<div class="accordion-inner">
+						This exhibition will give you a glimpse of various computer operating systems which are open source and free.<br>
+						
+					</div>
+				</div>
+			</div>
+			<br>
 			<div class="accordion" id="my-accordion">
 			<div class="accordion-group">
 				<div class="accordion-heading">
-					<a href="#collapse-4" data-toggle="collapse" data-parent="#my-accordion" class="accordion-toggle">Event</a>
+					<a href="#collapse-3" data-toggle="collapse" data-parent="#my-accordion" class="accordion-toggle btn btn-default btn-lg">Quiz</a>
+				</div>
+				<div class="accordion-body collapse out" id="collapse-3">
+					<div class="accordion-inner">
+						Description about the event will be updated soon.
+					</div>
+				</div>
+			</div>
+			<br>
+
+
+			<div class="accordion" id="my-accordion">
+			<div class="accordion-group">
+				<div class="accordion-heading">
+					<a href="#collapse-4" data-toggle="collapse" data-parent="#my-accordion" class="accordion-toggle btn btn-default btn-lg">crossword challange</a>
 				</div>
 				<div class="accordion-body collapse out" id="collapse-4">
 					<div class="accordion-inner">
@@ -219,6 +230,7 @@
 			</div>
             </div>
         </div>
+        <br>
     </section>
 
     <!-- schedule Section -->
@@ -230,9 +242,9 @@
                 <table class="table table-bordered table-condensed">
 			<caption></caption>
 			<thead>
-				<tr align="center">
+				<tr>
 					<th>#</th>
-					<th>Event Name</th>
+					<th align="center">Event Name</th>
 					<th>Timing</th>
 				</tr>
 			</thead>
@@ -249,17 +261,18 @@
 				</tr>
 				<tr class="error">
 					<td>3</td>
-					<td>Event</td>
+					<td>Quiz</td>
 					<td></td>
 				</tr>
 				<tr class="error">
 					<td>4</td>
-					<td>Event</td>
+					<td>Crossword Puzzle</td>
 					<td></td>
 				</tr>
 			</tbody>
 		</table>
 			<br><br>
+			<h2>Follow Us On</h2>
                 <ul class="list-inline banner-social-buttons">
                     <li>
                         <a href="https://twitter.com/glugnith" class="btn btn-default btn-lg"><i class="fa fa-twitter fa-fw"></i> <span class="network-name">Twitter</span></a>
